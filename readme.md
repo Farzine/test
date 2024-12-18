@@ -85,7 +85,7 @@ flutter run
 </ol>
 
 <h2 id="api-endpoints">API Endpoints</h2>
-<h3 id="api-endpoints" <a href="https://documenter.getpostman.com/view/32714993/2sAYBbd8cG">API documentation link</h3>
+<h3 id="api-endpoints" >[API documentation link](https://documenter.getpostman.com/view/32714993/2sAYBbd8cG)</h3>
 <ul>
   <li><strong>Authentication:</strong>
     <ul>
