@@ -1,42 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Design Pattern Learning App - README</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-  }
-  h1, h2, h3, h4 {
-    color: #333;
-  }
-  code {
-    background: #f5f5f5;
-    padding: 0.2em 0.4em;
-    border-radius: 4px;
-  }
-  pre {
-    background: #f5f5f5;
-    padding: 1em;
-    border-radius: 4px;
-    overflow-x: auto;
-  }
-  a {
-    color: #0366d6;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  hr {
-    margin: 2em 0;
-  }
-</style>
-</head>
-<body>
 
 <h1>Design Pattern Learning App</h1>
 
@@ -53,14 +14,14 @@
   <li><a href="#api-endpoints">API Endpoints</a></li>
   <li><a href="#state-management">State Management</a></li>
   <li><a href="#how-to-run">How to Run</a></li>
-  <li><a href="#screenshots">Screenshots</a></li>
+  <li><a href="#screenshots">Video Demo</a></li>
   <li><a href="#challenges-faced">Challenges Faced</a></li>
   <li><a href="#future-improvements">Future Improvements</a></li>
   <li><a href="#license">License</a></li>
 </ol>
 
 <h2 id="overview">Overview</h2>
-<p>The <strong>Design Pattern Learning App</strong> aims to help users understand and master common software design patterns through interactive learning materials, videos, practice tests, and code examples. It also incorporates social features, allowing users to:</p>
+<p>The <strong>Design Pattern Learning App</strong> aims to help users understand and master common software design patterns through interactive learning materials, videos, practice tests with AI, and code examples. It also incorporates social features, allowing users to:</p>
 <ul>
   <li>View a feed of posts from followed users.</li>
   <li>Like, comment, and engage with posts.</li>
@@ -68,7 +29,7 @@
   <li>See friend suggestions and explore user profiles.</li>
 </ul>
 
-<p>Additionally, the app integrates AI-generated practice questions and code evaluations for design pattern tests, leveraging external AI APIs (such as OpenAI).</p>
+<p>Additionally, the app integrates AI-generated practice questions and code evaluations for design pattern tests, leveraging external AI APIs (such as Gemini AI).</p>
 
 <p><strong>GitHub Repository:</strong> <a href="https://github.com/Farzine/Design-Pattern-Learning-Appp">Design Pattern Learning App</a></p>
 
@@ -79,7 +40,7 @@
   <li><strong>Design Patterns Module:</strong> Browse patterns, watch tutorial videos, read descriptions, and view example code.</li>
   <li><strong>Post Creation and Feed:</strong> Create posts, like, comment, and view a feed of posts (similar to Facebook).</li>
   <li><strong>Friend Suggestions:</strong> View other users you may know and navigate to their profiles.</li>
-  <li><strong>Practice and Testing:</strong> Generate practice questions, take tests, and (in the future) run code via AI.</li>
+  <li><strong>Practice and Testing:</strong> Generate practice questions and take tests with AI, and  run code via code editor.</li>
 </ul>
 
 <h2 id="architecture">Architecture</h2>
@@ -96,7 +57,7 @@
 <ul>
   <li><strong>Frontend:</strong> Flutter (Dart), Riverpod, Dio, JSON serialization.</li>
   <li><strong>Backend:</strong> Node.js &amp; Express, MongoDB with Mongoose, JWT for authentication.</li>
-  <li><strong>Dev Tools:</strong> VSCode/Android Studio, Postman/Insomnia, GitHub.</li>
+  <li><strong>Dev Tools:</strong> VSCode/Android Studio, Postman, GitHub.</li>
 </ul>
 
 <h2 id="backend-setup">Backend Setup</h2>
@@ -124,6 +85,7 @@ flutter run
 </ol>
 
 <h2 id="api-endpoints">API Endpoints</h2>
+<h3 id="api-endpoints" <a href="https://documenter.getpostman.com/view/32714993/2sAYBbd8cG">API documentation link</h3>
 <ul>
   <li><strong>Authentication:</strong>
     <ul>
@@ -179,8 +141,8 @@ flutter run
 
 <p>Use the app on your emulator or device. Register, login, and explore the feed and friend suggestions.</p>
 
-<h2 id="screenshots">Screenshots</h2>
-<p>Add your project screenshots here.</p>
+<h2 id="screenshots">Video demo</h2>
+<p>https://github.com/user-attachments/assets/114ad7b2-280e-4c58-b447-2e08fcb015ba</p>
 
 <h2 id="challenges-faced">Challenges Faced</h2>
 <p>Understanding and implementing the repository + Riverpod architecture was initially unfamiliar. Integrating the backend API with the frontend required careful attention to data models and token handling. Managing asynchronous states with Riverpod and ensuring a responsive, error-tolerant UI also took practice. Through these challenges, we improved our understanding of architecture, state management, and frontend-backend integration.</p>
@@ -191,6 +153,7 @@ flutter run
   <li>Add pagination, infinite scrolling for feeds.</li>
   <li>Enhance user profile page design.</li>
   <li>Add push notifications and real-time updates if needed.</li>
+  <li>Add realtime communication and real-time updates if needed.</li>
 </ul>
 
 <h2 id="license">License</h2>
